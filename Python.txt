@@ -1,0 +1,9 @@
+Python :
+
+general purpose high level programming language 
+
+father of python Guido Van Rossam
+
+1991 - python 2
+
+python 3 
