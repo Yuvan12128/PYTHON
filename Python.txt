@@ -7,3 +7,70 @@ father of python Guido Van Rossam
 1991 - python 2
 
 python 3 
+
+statically typed programming 
+
+dynamically type programming 
+
+paradigm - idea:
+multiparadigm:
+
+python 3 is a new language is released 2008
+
+interpreted:
+API - java/python 
+
+web application -java/ php - wordpress
+mobile appplication - java/ objective C
+AI /ML/ DS- Python/ Java / Scala
+Rupy
+
+python - multi paradigm 
+
+java script --> OOP, Function programming procedure oriended  programming 
+
+interpreted:
+Line by line translation:
+
+python code  --> 0,1s --> interpreter/ Compiler 
+
+compiler - translate -
+interpreter - Line By line Translation
+
+mobile application dev - performance 
+
+java - two levels translation 
+compiler - JIT compiler 
+------------------------
+using python
+
+web application 
+mobile application
+games 
+db 
+network programming 
+Data science / machine learning / AI
+internet of things 
+---------------------------------
+1. simple easy to learn 
+2. open source and free
+3. high level language 
+4. platform independent 
+liux / windows 
+python virtual machine 
+5. portability 
+6. Dynamically typed 
+no need of explicit data types in python.
+7. multiparadigm 
+8. libraries/ modules  
+9.
+
+flavours of python:
+1. CPython 
+2. Jython --> JVM - java virtual machine
+3. IronPython C# .NET 
+4. RubyPython
+5. PyPy: High Performance python
+JIT compiler (Just in time )
+6. AnacondaPython: 
+Large Set of Data Processing 
