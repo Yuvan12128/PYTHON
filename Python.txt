@@ -180,6 +180,116 @@ Rules :
 --> No limitations, any length
 --> Reserved words in python should not be used as identifiers
 --> _, __starting -> private variable
---> magic methods -> __add__ predefined function / in build function
+--> magic methods -> __add__ predefined function.
 ================================================================================
+Python Reserved Words:
+---------------------
 
+33 Reserved words 
+
+True / False / None 
+and or not is 
+if elif else 
+while for break continue return yield in 
+try except finally raise assert 
+notice :import keyword (next) keyword.kwlist
+yuvan@yuvan-MS-7C89:~/Documents/python$ python3
+Python 3.12.3 (main, Jun 18 2025, 17:59:45) [GCC 13.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import keyword
+>>> keyword.kwlist
+['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+>>> 
+-------------------------------------------------------------------------------------
+
+DATATYPES:
+Dynamically Typed Programming Language
+Duck Typing Language 
+no=10  # integer
+result =true 
+result = false
+	we never mention datatype before variables (Identifiers) explicitly in python.
+	Based on the data (value) we provide, python will automatically assign  corresponding datatype.
+	
+In Built Datatypes:14
+
+int 
+float
+complex
+bool 
+str 
+bytes
+bytearray
+range
+list 
+set
+frozenset
+tuple
+dict
+None
+
+no = 10
+print(no) # input - parameter / argument
+          # action - function / method / procedure / routine
+print(type(no))
+
+no = 1.0
+
+print(type(no))
+
+result =True
+print(type(result))
+out:
+10
+<class 'int'>
+<class 'float'>
+<class 'bool'>
+=========================================================================
+
+name = 'yuvan'
+print(name)
+print(type(name))
+name = "yuvan"
+print(type(name))
+print(id(name))
+
+no = 1
+print(no)
+print(id(no))
+out:
+----
+yuvan
+<class 'str'>
+<class 'str'>
+128424211367040
+1
+11760680
+
+-----------------------------------------------
+name = 'yuvan'
+print(len(name))
+
+no = 1000
+print(len(no))
+out:
+5
+Traceback (most recent call last):
+  File "/home/yuvan/Documents/python/main.py", line 5, in <module>
+    print(len(no))
+          ^^^^^^^
+TypeError: object of type 'int' has no len()
+------------------------------------------------------------------
+no=123.9875678959785
+print(round(no))
+print(round(no,2))
+print(round(no,4))
+out:
+124
+123.99
+123.9876
+-------------------------
+int datatype
+ 1. Decimal Form 
+ 2. Binary from -> 0s and 1s
+ 3. octal form -> base 8: 01234567
+ 4. hexadecimal form ->
