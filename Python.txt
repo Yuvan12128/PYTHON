@@ -1,5 +1,5 @@
 Python :
-
+22.8.25:
 general purpose high level programming language 
 
 father of python Guido Van Rossam
@@ -74,3 +74,112 @@ flavours of python:
 JIT compiler (Just in time )
 6. AnacondaPython: 
 Large Set of Data Processing 
+
+web scrapping 
+camera
+amazon flipkart
+
+practice:
+---------
+print('hello yuvan shankar this is my first program')
+print(5+6)
+print(5+4*5)
+print((2+2)*4)
+print('-----------------')
+print(100/3)#division
+print(100-3)
+print(100//3)#floor division
+print(100*3)
+print(2**3)#power 2 power 3
+print(10,'yuvan')
+
+print(100%7)#division 
+
+print(100%9)
+
+print(100%2)
+
+output:
+------
+hello yuvan shankar this is my first program
+11
+25
+16
+-----------------
+33.333333333333336
+97
+33
+300
+8
+10 yuvan
+2
+1
+0
+-------------------------------------------------------------
+
+24.8.25:
+print(2**3+2*3)
+print((2**3)+2*3)
+print((2**3+2)*3)
+output:
+14
+14
+30
+-------------------------------
+
+Identifiers - Variables - reference Variables:
+------------------------------------------------
+# alphabets - small / capital 
+# number are allowed
+# Underscore is allowed
+# No other special character is allowed 
+# don't start to numbers
+
+
+doorNo = 15 # = --> Assignment operator
+
+print(doorNo)
+
+name = 'yuvan shankar'
+name = "yuvan "
+
+print(name)
+
+out:
+15
+yuvan 
+-----------------------
+doorNo = 15 # = --> Assignment operator
+
+print(doorNo)
+--------------------------------------
+
+tamil_1=90
+print(tamil_1)
+tamil2=98
+print(tamil2)
+TAMIL=40
+print(TAMIL)
+# 1TAMIL=40
+# print(1TAMIL) 
+
+_tamil=200  # private variable
+print(_tamil)
+
+__english=40 #double underscore 
+print(__english)
+_maths_=101 #NameError: name '_math_' is not defined. Did you mean: '_maths_'?
+print(_math_)
+
+Rules :
+--> No special characters allowed 
+--> No space is allowed 
+--> Underscore is allowed (starting, middle, end)
+--> Numbers are allowed, but should not start with number
+--> case sensitive 
+--> No limitations, any length
+--> Reserved words in python should not be used as identifiers
+--> _, __starting -> private variable
+--> magic methods -> __add__ predefined function / in build function
+================================================================================
+
