@@ -291,5 +291,94 @@ out:
 int datatype
  1. Decimal Form 
  2. Binary from -> 0s and 1s
- 3. octal form -> base 8: 01234567
- 4. hexadecimal form ->
+ 3. octal form -> base 8: 0 1 2 3 4 5 6 7
+ 4. hexadecimal form -> for 16 0 9 ABCDEF
+------------------------------------------ 
+| Decimal | Binary | Octal | Hexadecimal |
+| ------- | ------ | ----- | ----------- |
+| 0       | 0      | 0     | 0           |
+| 1       | 1      | 1     | 1           |
+| 2       | 10     | 2     | 2           |
+| 3       | 11     | 3     | 3           |
+| 4       | 100    | 4     | 4           |
+| 5       | 101    | 5     | 5           |
+| 6       | 110    | 6     | 6           |
+| 7       | 111    | 7     | 7           |
+| 8       | 1000   | 10    | 8           |
+| 9       | 1001   | 11    | 9           |
+| 10      | 1010   | 12    | A           |
+| 11      | 1011   | 13    | B           |
+| 12      | 1100   | 14    | C           |
+| 13      | 1101   | 15    | D           |
+| 14      | 1110   | 16    | E           |
+---------------------------------------------
+octal Form base:
+no = 0o776
+print(no)
+no = 0O777
+print(no)
+out:
+510
+511
+Hexadecimal form :
+no = 0X123
+print(no)
+no=0XABC
+print(no)
+no=0XBCA
+print(hex(no))
+out:
+291
+2748
+0xbca
+
+functions(); 
+------------
+print()
+type()
+id()
+len()
+bin()
+oct()
+hex()
+
+===========================
+
+no = bin(20)
+print(no)
+no=oct(20)
+print(no)
+no=hex(20)
+print(no)
+out:
+0b10100
+0o24
+0x14
+
+====================
+Float datatype:
+no=1.2323232323
+print(no)
+print(type(no))
+no2=7.7e3 #7.7 * 1000
+print(no2)
+out:
+1.2323232323
+<class 'float'>
+7700.0
+--------------------------------
+#Complex datatype:
+
+#Real part + Imaginary Part
+
+no=5+10j
+print(no)
+print(type(no))
+
+no2 = 10+3j
+
+total = no+no2
+print(total)
+print(no.real)
+print(no.imag)
+------------------------------
