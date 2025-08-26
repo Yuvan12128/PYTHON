@@ -382,3 +382,179 @@ print(total)
 print(no.real)
 print(no.imag)
 ------------------------------
+no1=10  #assignment operator 
+no2=20
+print(no1<no2) #10<20   True
+print(no1>no2) #10>20   False
+print(no1==no2) #comparison equal
+print(no1!=no2)
+
+present = True
+print(present)
+print(type(present))
+
+print(True+True)
+-------------------------------
+25.08.25:
+---------
+str Datatype:
+-------------
+word / paragraph
+
+name = 'yuvan'
+print(name)
+name = "yuvan"
+print(name)
+
+sen='''"'yuvan' mail id is yuvan12128@gmail.com"'''
+sen="""'yuvan' mail id is yuvan12128@gmail.com"""
+print(sen)
+
+address = """ 5/4 Amma Ponnu Nagar,
+                Avinangudi 606 111."""
+                
+print(address)
+out:
+----
+yuvan
+yuvan
+'yuvan' mail id is yuvan12128@gmail.com
+ 5/4 Amma Ponnu Nagar,
+                Avinangudi 606 111.
+=================================================
+name = 'muthu'
+city = 'chennai'
+
+print(name+city)
+print(name,city)
+out:
+muthuchennai
+muthu chennai
+===============================================
+name = 'kalai'
+pincode = 11
+print(name,pincode)
+out:
+kalai 11
+==============================================
+#String slicing:
+# 012345
+#index - order
+#forward / backward 
+#forward - +ve - starts from zero
+#backward - -ve - start from -1
+name ="kalaiselve"
+
+print(name[0:5])
+print(name[5:])
+print(name[:5])
+print(name[2:5])
+out:
+kalai
+selve
+kalai
+lai
+============================================
+name = 'abcdefghijklmnopqrstuvwxyz'
+print(name[0:5])
+print(name[-1:])
+print(name[5:10])
+print(name[-5:-1])
+out:
+abcde
+z
+fghij
+vwxy
+============================================
+name='abcdefghijklmnopqrstuvwxyz'
+
+print(name[::])
+print(name[1:10])
+print(name[1:20:5])
+out:
+abcdefghijklmnopqrstuvwxyz
+bcdefghij
+bglq
+===============================================
+name='abcdefghijklmnopqrstuvwxyz'
+
+print(name[-5:-1])
+print(name[::])
+print(name[1:10])
+print(name[1:26:2])# step operator 
+
+vwxy
+abcdefghijklmnopqrstuvwxyz
+bcdefghij
+bdfhjlnprtvxz
+==================================================
+#PALANIDROME
+name='son'
+
+print(name[::])
+
+name2 =name[::-1]
+
+print(name2)
+print(name==name2)
+====================================================
+name = 'tub'
+print(name*3)
+tubtubtub
+=================
+tubtubtub
+
+#Type casting:
+#Converting one datatype to another datatype 
+no=1423.789
+print(int(no))
+
+print(float(10))
+
+1423
+10.0
+---------------------------------------------
+#Complex()
+print(complex(10))
+print(complex(5.4))
+print(complex(True))
+print(complex(False))
+print(complex('12'))
+print(complex('12.7'))
+out:
+(10+0j)
+(5.4+0j)
+(1+0j)
+0j
+(12+0j)
+(12.7+0j)
+yuvan@yuvan
+-------------------------------------------
+#bool()
+
+print(bool(0))
+print(bool(1))
+print(bool(1.5))
+print(bool(0.3))
+print(bool(0.0))
+print(bool(5+4j))
+print(bool(0+2j))
+print(bool(0+0j))
+print(bool('abc'))
+print(bool(''))
+print(bool('True'))
+print(bool('False'))
+out:
+False
+True
+True
+True
+False
+True
+True
+False
+True
+False
+True
+True
+------------------------------------------
