@@ -715,9 +715,43 @@ assignment operators
 #Ternary operators (conditional operators)
 
 
+----------------------------------------------
+
+#Membership Operators
+# in, not in
+
+sen ='Today is Friday'
+print('o'in sen)
+print('t'in sen)
+
+True
+False
+-----------------------------------------
 
 
+#Operators Chaining
 
+print(100<200)
+print(100<200>300)
+
+True 
+False
+------------------------------------------
+
+#Bitwise operators
+
+#   &  | ~ ^ >> <<
+
+print(4|5)
+print(4&5)
+print(4^5) #XOR
+print(~10) #Bitwise Compliment Operator
+out:
+5
+4
+1
+-11
+----------------------------------------------
 
 
 

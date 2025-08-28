@@ -1,6 +1,4 @@
-no =10
-no2=30
+print(8>>2)
 
-no3 = 30 if no>no2 else 40
-
-print(no3)
+print(bin(12))
+print(12>>3)
