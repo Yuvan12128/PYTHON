@@ -558,3 +558,169 @@ False
 True
 True
 ------------------------------------------
+27.08.2025:
+#str()
+
+print(str(10))
+print('price of a Tea is '+str(10))
+#print('price of a Tea is '+10)
+#TypeError: must be str, not int
+
+print(str(34.5))
+print(str(5+10j))
+print(str(True))
+print(str(False))
+out:
+10
+price of a Tea is 10
+34.5
+(5+10j)
+True
+False
+=============================================
+
+14 datatypes - fundamental datatypes
+
+All fundamental datatypes are Immutable.
+
+immutability :
+no =10
+print(no)
+print(id(no))
+no2 = 100
+print(id(no2))
+print(no2)
+#Immutability 
+# Once we change value of an identifier belongs to fundamental datatype 
+# it wont get changed in memory. Instead of that, a new memory location will be crated and the new value will be 
+#updated there.
+out:
+10
+11760968
+11763848
+100
+=================================================
+interview :
+no1= 10
+no2=10.0
+print(no1 is not no2) # memory same  # identity operator
+print(no1 == no2) # value same   # equality
+out:
+True
+True
+---------------------------------------------------
+
+bytes 8 Bit 2 power 8
+
+2*2*2*2*2*2*2*2
+
+group of byte numbers
+
+---------------------------------------------
+values = [10,20,30,40,50,60]
+print(values)
+values = bytes(values)
+print(values)
+print(type(values))
+print(values[0])
+total=0 
+for no in values : 
+    print(no)
+    total += no
+print(total)
+OUT 
+[10, 20, 30, 40, 50, 60]
+b'\n\x14\x1e(2<'
+<class 'bytes'>
+10
+10
+20
+30
+40
+50
+60
+210
+----------------------------------------------
+no = int(input('inter any value : '))
+print(type(no))
+print(10+no)
+out:
+inter any value : 10
+<class 'int'>
+20
+---------------------------------------------
+# Odd even
+
+no= int(input('enter any values : '))
+
+if no%2==0:
+    print('Even Number')
+else:
+    print('Odd Number')
+    
+out:
+----
+enter any values : 11
+Odd Number
+--------------------------------------------------
+values = [10,21,30,41,50]
+
+for no in values:
+    if no%2==0:
+        print(no)
+        
+out:
+10
+20
+30
+--------------------------------------------------
+name1 = 'kannan'
+name2 = 'kumaran'  #Lexicographical Order - dictionary 
+
+print(name1>name2)
+print(name2>name1)
+print(name1==name2)
+print(name1 != name2)
+out:
+False
+True
+False
+True
+------------------------------------------------
+print('hi hello')
+print('hi \t hello')
+print('he \n hello')
+#print('I'm fine')
+print('I\'m fine')
+out:
+hi hello
+hi 	 hello
+he 
+ hello
+I'm fine
+-------------------------------------------------
+
+#constants 
+
+MAX_ATTEMPTS =3
+print(MAX_ATTEMPTS)
+
+OUT:
+3
+-----------------------
+assignment operators 
++= -= *= /= //=
+%= **=
+
+#Ternary operators (conditional operators)
+
+
+
+
+
+
+
+
+
+
+
