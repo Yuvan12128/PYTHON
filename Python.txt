@@ -792,6 +792,22 @@ enter number : 677
 677 is greater
 ------------------------------------
 
+main.py
+def biggest(n1,n2): # function definition
+    if n1>n2:
+        print(n1,'is greater')
+    else:
+        print(n2,'is greater' )
+main2.py
+import main
+no1 = int(input('enter number : '))
+
+no2= int(input('enter number : '))
+
+main.biggest(no1,no2) #function calling
+#arguments for given function
+---------------------------------------
+
 
 
 
