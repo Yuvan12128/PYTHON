@@ -753,6 +753,44 @@ out:
 -11
 ----------------------------------------------
 
+print(5 or 4)
+
+result =True
+result2= not result
+
+print(result)
+print(result2)
+
+5
+True
+False
+------------------------
+
+Modules:
+
+variables, function call, function definition
+
+print()
+int()
+
+===========================
+def biggest(n1,n2): # function definition
+    if n1>n2:
+        print(no1,'is greater')
+    else:
+        print(no2,'is greater' )
+
+no1 = int(input('enter number : '))
+
+no2= int(input('enter number : '))
+
+biggest(no1,no2) #function calling
+#arguments for given function
+
+enter number : 34
+enter number : 677
+677 is greater
+------------------------------------
 
 
 
