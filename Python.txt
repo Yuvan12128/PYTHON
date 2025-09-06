@@ -837,4 +837,68 @@ Area of circle is  28.27
 
 ---------------------------------------
 
+expression  = input('enter your expression : ' )
+print('first',expression)
+expression = eval(expression)
+print('second',expression)
+
+# eval is a default functions 
+enter your expression : 50-20
+first 50-20
+second 30
+==========================================
+
+from sys import argv
+print(argv)
+print(type(argv))
+#print(argv[0])
+#print(argv[1])
+#print(argv[2])
+#print(argv[3])
+print(int(argv[1])+int(argv[2]))
+
+yuvan@yuvan-MS-7C89:~/Documents/python$ python3 main.py 5 10 39 40 333 400
+['main.py', '5', '10', '39', '40', '333', '400']
+<class 'list'>
+15
+----------------------------------------------
+no1,no2,no3,no4=10,20,30,40
+print(no1,no2,no3,no4,sep='#')
+print(no1,no2,no3,no4,end='0')
+
+yuvan@yuvan-MS-7C89:~/Documents/python$ python3 main.py
+10#20#30#40
+10 20 30 400yuvan@yuvan-MS-7C89:~/Documents/python$ 
+-------------------------------------------------
+#Formatted Sting:
+
+# %i, %d, %f, %s
+
+no1,no2,no3=10,20,30
+print('no1 value %i'%no1)
+
+name ='yuvanshankar'
+print('hi',name)
+print('hi %s'%name)
+
+print('no1 value is %d and no2 value is %d'%(no1,no2))
+
+value=3.14
+
+print('value is %f '%value)
+no1 value 10
+hi yuvanshankar
+hi yuvanshankar
+no1 value is 10 and no2 value is 20
+value is 3.140000 
+--------------------------------------
+#Replacement Operators
+name='yuvan'
+city='chennai'
+accNo='12345'
+
+print('hi {a} your city name is{aa} and yur accNo {aaa}'.format(a=name,aa=city,aaa=accNo))
+hi yuvan your city name ischennai and yur accNo 12345
+--------------------------------------------------------------------------
+
 
