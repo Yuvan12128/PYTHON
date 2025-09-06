@@ -807,8 +807,34 @@ no2= int(input('enter number : '))
 main.biggest(no1,no2) #function calling
 #arguments for given function
 ---------------------------------------
+import math
+print(math.sqrt(100))
+print(math.sqrt(25))
+print(math.sqrt(10))
+print(math.pi)
 
+print(math.pow(10,3))
+op:
+--
+10.0
+5.0
+3.1622776601683795
+3.141592653589793
+1000.0
+-----------------------------------------
+module - functions,def, import
+--------------------------------------
+from  math import pi
+print(pi)
 
+radious = int(input('enter radius : '))
+area=(pi*radious*radious)
+print('Area of circle is ',round(area,2))
 
+3.141592653589793
+enter radius : 3
+Area of circle is  28.27
+
+---------------------------------------
 
 
