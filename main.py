@@ -1,8 +1,11 @@
-no = 1
+email=input('enter you email : ')
+count=0
+length = len(email)
+i=0
+while i<length:
+    if email[i]>='a' and email[i]<='z':
+        print(email[i])
+        count+=1
+    i+=1
 
-total=0
-
-while no <=100:
-    total+=no
-    no+=1
-print(total)
+print(count)
