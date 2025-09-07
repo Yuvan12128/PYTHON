@@ -1,5 +1,8 @@
-count =5
+no = 1
 
-while count >=1:
-    print(count,end=' ')
-    count-=1
+total=0
+
+while no <=100:
+    total+=no
+    no+=1
+print(total)
