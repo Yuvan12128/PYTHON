@@ -1,0 +1,85 @@
+Python programming totorial for beginners:
+
+=> Python is an interpreted, object-oriented, high-level programming language that can be used for a   wide variety of applications.
+=> Python is a powerful general-purpose programming language.
+=> First developed in the late 1980s by Guido van Rossum.
+=> Python is open source programming language.
+=> Guido van Rossum named it after the BBC Comedy TV series Monty Python's Flying Circus.
+
+Advantages of Python Programming:
+
+=> Python is easy to learn and use.
+=> Large number of libraries available that can be used in your projects today.
+=> High Level Programming Language.
+=> Huge Community.
+=> Object-Oriented language
+=> Portable across Operating system.
+
+Organizations using Python:
+
+=> Google 
+=> microsoft 
+=> facebook 
+=> mozilla 
+=> cisco
+=> Quora
+=> Youtube etc....
+
+Python based jobs:
+
+Data Analysis, Artificial Intelligence, Automation, Web Application, Desktop Application Hacking, School Students.
+
+High-level languages;
+    High-level Languages, like C, C++, JAVA, PYTHON ETC., are very near to Engligh.  It makes Programming process easy.  However, it must be translated into machine language before execution.  This translation process is either conducted by either a compliler or an interprete.  Also known as source code.
+
+Machine Code:
+    Machine languages are very close to the hardware. Every computer has its machine language.  A machine language programs are made up of series of binary pattern.(Eg:0s and 1s).  It represents the simple operations which should be performed by the computer.  Machine language programs are executable so that they can be run directly.
+
+Interpreter:
+    The interpreter converts the source code line-by-line during Run Time, translates it into machine code or virtual machine code.  Interpreter allows eveluation and modification of the program while it is executing.  If there is error in any line, it reports it at the same time and program executio cannot resume untill the error is rectified.  Interpreter must always be present in the memory every time the program is run.  It is first interpreted and then executed.
+
+Diffrence between Compiler and Interpreter:
+
+Compiler:
+It read the whole program at a time.
+It translates the whole program at a time inot machine code.
+It produces machine code which is directly understood bt computer.
+It takes large amount of time to analyze the source code.
+It is faster
+It requires more memory space.
+Programming language like C, C++ use compiler.
+
+Interpreter:
+It read the program line by line.
+It translates only one line of program at a time into machine code.
+It produces intermediate code after translation.
+It takes less amount of time to analyze the source code.
+it is slower.
+It requires less memory space.
+Programming language like Python, Ruby use interpreter.
+
+Compiler:
+
+Source Code ---->Compiler --->Machine Code ---> Output.
+
+Interpreter Works:
+
+Source Code --->Python Byte Codes --->PVM --->Output.
+(Basic.py)      (Basic.pyc)   (Python Virtual Machine)
+
+Python Run mode:
+-> Interactive Mode.
+-> Script Mode.
+
+Variables:
+    Variables are containers for storing data values. Python has no command for declaring a variable.
+    ->A vatiable name must start with a letter or the underscore(_) character.
+    ->A variable name cannot start with a number.
+    ->A varibale name can only contain alpha-numeric characters and underscores(A-z,0-9,_).
+    ->Variable names are case-sensitive (name, Name and NAME are three different variables).
+
+    Example:
+    name='yuvan'
+    User_name='yuvan'
+    name2='yuvan'
+    
