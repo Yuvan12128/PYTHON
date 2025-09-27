@@ -1038,6 +1038,41 @@ m
 13
 --------------------------------------------
 
-
-
+no=1
+while no<=10:
+    print(no,' * 5 ', no*5)
+    no+=1
+1  * 5  5
+2  * 5  10
+3  * 5  15
+4  * 5  20
+5  * 5  25
+6  * 5  30
+7  * 5  35
+8  * 5  40
+9  * 5  45
+10  * 5  50
+------------------------------------------------
+choice=''
+total=0
+while not choice == 'n':
+    mark=int(input('enter mark : '))
+    total=total+mark
+    choice = input('type no to stop ')
+else:
+    print(total)
+enter mark : 1
+type no to stop 
+enter mark : 2
+type no to stop 
+enter mark : 3
+type no to stop 
+enter mark : 44
+type no to stop 
+enter mark : 55
+type no to stop 
+enter mark : 66
+type no to stop n
+171
+--------------------------------------------
 
