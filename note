@@ -82,4 +82,12 @@ Variables:
     name='yuvan'
     User_name='yuvan'
     name2='yuvan'
+
+Keywords:
+    Keywords are the reserved words in Python.
+    We cannot use a keyword as a variable name, function name or any other identifier.
+    Keywrods are case sensitive in Python.
+
+    keyword.kwlist
+    ['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
     
