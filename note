@@ -90,4 +90,33 @@ Keywords:
 
     keyword.kwlist
     ['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
-    
+
+# Arithmetic Operators
+
++ Addition
+- Subtraction
+* Multiplication
+/ Division
+% Modulus
+** Exponentiation
+// Floor division
+
+# Assignemnt Operators
+
+= Assignment
++= Additon
+-= Subtraction
+*= Multiplication
+/= Division
+%= Modulus
+**= Exponentiation
+//= Floor division
+
+# Comparision Operators or Relational Operators
+
+== Equal
+!= Not equal
+> Greater than
+< Less than
+>= Greater than equal
+<= Less than equal
